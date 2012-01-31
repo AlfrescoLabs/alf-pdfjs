@@ -1,0 +1,9 @@
+<webscript kind="org.alfresco.repository.content.stream">
+  <shortname>PDF Generator</shortname>
+  <description>Generates a PDF rendition for a given document.</description>
+  <url>/ext/pdf/{node_id}</url>
+  <url>/ext/node/{store_type}/{store_id}/{node_id}/pdf</url>  
+  <format default="">argument</format>
+  <authentication>user</authentication>
+  <transaction>required</transaction>
+</webscript>

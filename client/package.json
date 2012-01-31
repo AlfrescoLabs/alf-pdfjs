@@ -1,0 +1,24 @@
+{
+  "author": "Luis Sala <luis.sala@alfresco.com> (http://alfresco.com)",
+  "name": "Alfresco-PDFJS-Demo",
+  "description": "Example of Alfresco working with PDF.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "preview-server.js",
+  "engines": {
+    "node": ">=0.4.11"
+  },
+	"directories" : {
+	"lib" : "lib"
+  },
+  "dependencies": {
+	"http-proxy": "0.7.6",
+	"express": "2.5.2",
+    "mime":"",
+	"connect":"1.8.5"
+  },
+  "devDependencies": {}
+}
