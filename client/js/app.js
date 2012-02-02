@@ -7,7 +7,7 @@
 
 'use strict';
 
-PDFJS.getPdf('/_proxy/http://admin:admin@x.local:8080/alfresco/service/ext/pdf/286617b4-46eb-4bc3-a657-7392ac017824', function getPdfExample(data) {
+PDFJS.getPdf('/_proxy/http://admin:admin@x.local:8080/alfresco/service/ext/pdf/bf28c68c-ff37-4844-834d-293044cc1593', function getPdfExample(data) {
   //
   // Instantiate PDFDoc with PDF data
   //
